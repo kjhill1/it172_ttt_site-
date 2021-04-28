@@ -1,0 +1,197 @@
+
+
+body {
+ 
+    background: rgb(14, 34, 66)
+}
+
+ .container {
+    background-color: rgb(245, 245, 246);
+    width: auto;
+    height: 100%;
+    margin: 20px;
+    font-family: "Brandon Grotesque Regular", "Fieldwork Hum Bold", Helvetica;
+}
+
+header {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  color: rgb(43, 44, 48);
+  font-size: 3.5vw;
+}
+
+h1 {
+    font-size: 20px;
+    
+ }
+
+h2 {
+   font-size: 16px;
+   padding: 0px 10px;
+}
+
+nav.li {
+    width: 100%;
+    justify-items: center;
+    font: 12px rgb(43, 44, 48);
+ }
+
+ li.a {
+     color: black;
+ }
+  p {
+    font: 12px rgb(43, 44, 48);
+  }
+
+  .siteinfo {
+    padding: 0px 10px;
+    font: 12px rgb(43, 44, 48);
+  }
+
+footer {
+  text-align: center;
+  font-size: 3.5vw;
+  font-size: 10px;
+}
+
+/* Add a black background color to the top navigation */
+/* .topnav {
+  background-color: #333;
+  overflow: hidden;
+} */
+
+/* Style the links inside the navigation bar */
+/* .topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+} */
+
+/* Change the color of links on hover
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens 
+.topnav .icon {
+  display: none;
+}
+
+ ul.topnav li   {
+  display: block;
+  margin: 20px;
+  font-style: black 30px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; 
+
+}
+
+:hover nav ul li a:hover {
+
+  background: #969494; /* Old browsers */
+
+  /* background: -moz-linear-gradient(top, #b0ca34 0%, #96c40d 100%); FF3.6+ 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b0ca34), color-stop(100%,#96c40d)); Chrome,Safari4+
+  background: -webkit-linear-gradient(top, #b0ca34 0%,#96c40d 100%);  Chrome10+,Safari5.1+ 
+  background: -o-linear-gradient(top, #b0ca34 0%,#96c40d 100%); Opera 11.10+
+  background: linear-gradient(to bottom, #faf5f6 0%,#521b26, 100%);*/
+
+/* 
+  /* extra large screens 
+
+  @media all and (min-width: 1400px) {
+
+    img.desktop {
+      width: 100%:
+      justify-items: center;
+     }
+    
+     img.tablet, img.phone {
+        display: none;
+    }
+      main {
+       width:65%;
+     } 
+  } */
+
+  
+/* DESKTOP */
+@media all and (min-width: 921px) and (max-width: 1400px){
+
+  .wrapper {
+   width: 95%;
+   margin: auto;
+ }
+
+.desktop {
+  width: 25%;
+  display: block;
+ }
+
+ .tablet, .phone {
+    display: none;
+}
+  /* main {
+   width:65%;
+ }  */
+}
+
+/*TABLET*/
+@media all and (min-width:738px) and (max-width: 920px) {
+
+  main {
+    width: 55%;
+    overflow: hidden; 
+  }
+
+  nav {
+    display: block
+
+  }
+
+  .tablet {
+          width: 25%;
+          display: block;
+   }
+
+  .desktop, .phone {
+        display: none;
+     }  
+
+    }
+
+/* PHONE */
+@media all and (min-width: 320px) and (max-width: 737px) {
+
+  main {
+    width: auto;
+    margin: 10px;
+    overflow: hidden; 
+  }
+  
+  .wrapper {
+    display: block;
+  }
+
+  .phone {
+          width: auto;
+          display: block;
+   }
+
+   .tablet, .desktop {
+        display: none;
+     }  
+    }
