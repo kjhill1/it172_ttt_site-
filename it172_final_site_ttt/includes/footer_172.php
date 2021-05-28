@@ -1,13 +1,12 @@
 
-
-</div>
+<div class="disclaimer">
+<p>Please consider allergies or sensitives when making your selection. Keep yourself informed safe and healthy by considering your needs. <br>Feel free to <a href="contact.php">Contact Us.</a>We are more than happy to provide information.</p>
 <footer>
   <p>TBD<a href="contact.php" target="_blank"> Contact US</a><small>&copy; 2021-<?=date('Y')?><a href="mailto:1306homebase@gmail.com">All Rights Reserved</a></p>
 
 </footer>
 
-</div>
-<!-- END WRAPPER --> 
+
 </div>
 
 
@@ -37,7 +36,6 @@ function myFunction() {
 }
 </script> -->
 
-<script src="js/form.js"></script>
 
 </body>
 </html>

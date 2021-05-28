@@ -1,34 +1,25 @@
 <?php include 'includes/header_172.php'?>
 
-<form action="signup.html" method="post" id="signup">
-            <h1>feedback</h1>
-            <div>
-        <p>Please feel free to reach out with comments, compliments and ideas.</p>
-    </div>
-    
-    <forms action="https//www.twentytwotoes.com" target "_blank" method "GET"></forms>
-    
-    <p>
-        <label for="Name">First Name:</label>
-        <input type="text" id="name">
-        <label for="Name">Last Name:</label>
-        <input type="text" id="name"> 
-    </p>
+    <form action="https//www.twentytwotoes.com/form.php" target "_blank" method "GET" id="feedform">
 
-    <p>
-        <label for="email">Email:</label>
-        <input type="text" id="email">
-    </p>
-    
-    <div>
-        <label for="feedback">Your Feedback:</label>
-        <textarea id="feedback" name="Feedback" rows="20" cols="50"></textarea>
-         
-    </div>
+    <h1>Feedback</h1>
+        <div>
+            <p>Feeback is a gift. Feel free to reach out with compliments, comments or ideas.</p>
+        </div>
+           
+        <form><p><label for="name">Name:</label>
+                <input type="text" id="name"></p>        
+            <p><label for="email">Email:</label>
+                <input type="text" id="email" name="email"></p>
+            </p><label for="Feedback">Your Feedback:</label>
+                <textarea id="feedback" name="Feedback" rows="20" cols="50"></textarea></p>
+
+        </form>
 
     <div>
-        <input type="Submit" name="Submit">
+        <button type="submit">Submit</button>
     </div>
+    <script><src="js/form.js"</script>
 
 </form>
 

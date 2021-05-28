@@ -13,11 +13,10 @@ $nav1['index.php'] = "Home";
 $nav1['shop.php'] = "Shop";
 $nav1['about.php'] = "About";
 $nav1['contact.php'] = "Contact";
-$nav1['form2.php'] = "Form Test OG";
-$nav1['form.php'] = "Form Test JS";
+$nav1['form2.php'] = "Form Test JS";
 $nav1['cart.php'] = "Cart";
 $nav1['../172.html.php'] = "it172 Home Page";
-$nav1['../spr_21.html'] = "Back to Spring";
+$nav1['../spr_21/spr_21.html'] = "Back to Spring";
 
 // // makeLinks function will create our dynamic nav when called.
 // // Call like this:
@@ -32,7 +31,7 @@ switch(THIS_PAGE){
 
     case 'index.php':
         $title = "Twenty Two Toes Soap Co.";
-        $PageID = 'HOME';
+        $PageID = 'Home';
         break;
 
     case 'shop.php':
@@ -53,11 +52,8 @@ switch(THIS_PAGE){
 
     case 'form2.php':
         $title = "Twenty Two Toes Soap Co.";
-        $PageID = "Form Test OG";
+        $PageID = "Form Test JS";
 
-    case 'form.php':
-        $title = "Twenty Two Toes Soap Co.";
-        $PageID = "Form Test with JS";
 
     case 'cart.php':
         $title = "Twenty Two Toes Soap Co.";
