@@ -11,13 +11,12 @@
   
     </section>
     
-    <main> 
+    <main class=""> 
     
          main
 
     </main>
 
-    <p>Please consider allergies or sensitives when making your selection. Feel free to <a href="contact.php">Contact Us.</a>We are more than happy to provide information.</p>
 
     <!-- END container -->
     </div>

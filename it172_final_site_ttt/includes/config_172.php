@@ -11,12 +11,11 @@ date_default_timezone_set('America/Los_Angeles');
 ob_start();
 $nav1['index.php'] = "Home";
 $nav1['shop.php'] = "Shop";
-$nav1['about.php'] = "About";
-$nav1['contact.php'] = "Contact";
-$nav1['form2.php'] = "Form Test JS";
+$nav1['about.php'] = "About";;
+$nav1['form2.php'] = "Contact US";
 $nav1['cart.php'] = "Cart";
-$nav1['../172.html.php'] = "it172 Home Page";
-$nav1['../spr_21/spr_21.html'] = "Back to Spring";
+$nav1['../172.html'] = "it172 Home Page";
+$nav1['../../spr_21.html'] = "Back to Spring";
 
 // // makeLinks function will create our dynamic nav when called.
 // // Call like this:
@@ -52,22 +51,22 @@ switch(THIS_PAGE){
 
     case 'form2.php':
         $title = "Twenty Two Toes Soap Co.";
-        $PageID = "Form Test JS";
+        $PageID = "Contact Us";
 
 
     case 'cart.php':
         $title = "Twenty Two Toes Soap Co.";
         $PageID = "Shopping Cart";
 
-        case '../spr_21.html':
-            $title = "Twenty Two Toes Soap Co.";
-            $PageID = "Back to Spring";
-        break;
+        // case '../spr_21.html':
+        //     $title = "Twenty Two Toes Soap Co.";
+        //     $PageID = "Back to Spring";
+        // break;
 
-        case '../172.html':
-            $title = "Twenty Two Toes Soap Co.";
-            $PageID = "Back to 172 Home Page";
-        break;
+        // case '../172.html':
+        //     $title = "Twenty Two Toes Soap Co.";
+        //     $PageID = "Back to 172 Home Page";
+        // break;
 
     default:    
     $title = THIS_PAGE;    

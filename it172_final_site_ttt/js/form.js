@@ -1,45 +1,38 @@
-var name = document.getElementById("name");
+// vars for Elements to use as event listerns later
+var elN = document.getElementById('name');
+var elE = document.getElementById('email');
+var elF = document.getElementById('feedback');
 
-name.addEventListener("input", function (event) {
-  if (name.validity.typeMismatch) {
-    email.setCustomValidity("I need your name silly");
-  } else {
-    email.setCustomValidity("");
-  }
-});
+// want to blur input feilds
+elN.addEventListener('blur', checkName);
 
-var email = document.getElementById("email");
+// want to blur button field
+elE.addEventListener('blur', checkEmail);
 
-email.addEventListener("input", function (event) {
-  if (email.validity.typeMismatch) {
-    email.setCustomValidity("And your email too!");
-  } else {
-    email.setCustomValidity("");
-  }
-});
+// elF.addEventLister('blur');
 
-// var form = document.getElementById('feedform')
-// form.addEventListener('submit'
+// want to check Name is input or error message
+function checkName() {
+  var name = elN.value;
+  let elMsg = document.getElementById('name-msg');
+  console.log("Var name " + name);
+  if (name.length < 1) {
+    document.className = 'warning';
+    elMsg.textContent = 'Need your name....';
+  } else {elMsg.textContent = '';}
 
-// var button = document.querySelector("button"
+  } 
+  // end of check name
 
+  //check email
 
-
-
-
-function validateForm() {
-    var name = document.forms["form"]["required"].value;
-    if (x == "") {
-      alert("Name must be filled out");
-      return false;
-    }
-  }
-
-  function validateForm() {
-    var email = document.forms["form"]["email"].value;
-    if (x == "") {
-      alert("Email required");
-      return false;
-    }
-  }
+  function checkEmail() {
+    var email = elE.value;
+    let elMsg = document.getElementById('email-msg');
+    console.log("Var email " + email);
+    if (email.length < 4 || !email.includes("@")) {
+      document.className = 'warning';
+      elMsg.textContent = '...and your email silly';
+    } else {elMsg.textContent = '';}
+  } 
 
