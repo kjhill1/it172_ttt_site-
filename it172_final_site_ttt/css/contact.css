@@ -1,0 +1,55 @@
+/* CSS for form */
+form    {
+    background-color: rgb(249, 248, 248);
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: rgb(29, 29, 29);
+    border: 20px;
+}
+
+.fieldset {
+ padding: 10px;
+ text-align: center;    
+}
+
+  input:required {
+      border: 2px solid rgb(235, 148, 134);
+  }
+  
+  input:optional, textarea:optional {
+     background-color:#f1f1f1;
+     border:1px solid #ccc;
+  }
+  
+  input[type="submit"], input[type="button"] {
+  background-color: rgb(85, 85, 85);
+  border-radius: 4px;
+  border: solid 1px #ccc;
+  padding: 0.3em 0.5em;
+  box-shadow: 5px 5px;
+  }
+  
+  fieldset {
+  border: 1px solid #ccc;
+  max-width: 350px;
+  }
+  
+  legend {
+  margin-left: 0.5em;
+  padding: 0.2em 0.5em;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  }
+  
+  /* end reCAPTCHA styles */
+  
+  
+  
+  /* end reCAPTCHA styles */
+  
+  
+  

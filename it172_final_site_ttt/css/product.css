@@ -1,0 +1,90 @@
+
+/* 
+body {
+    border-style: solid;
+    border-width: 25px;
+    border-color: rgb(76, 77, 104);
+    /* background-color: rgb(249, 248, 248); 
+    
+}
+
+/* .wrapper    {
+    background-color: rgb(249, 248, 248);
+    border-top: solid 15px rgb(243, 222, 138);
+    border-bottom: solid 15px rgb(243, 222, 138);
+ 
+}  */
+
+.productcontainer {
+    display: flex;
+    padding-right: 2em;
+}
+
+   
+img.garden  {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    align-content: right;
+    padding-left: 20px;
+    margin: 0px 20px;
+
+} 
+
+.productdecription {
+    display: inline-block;
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+    font-style: "Fira Sans", Helvetica, Arial;
+    font-size: 12pt;
+}
+
+/* h3  {
+    font-style: "Lucida Bright", Helvetica, Arial;
+} */
+
+/* p {
+    
+} */
+
+/* #disclaimer {
+    text-align: center;
+    background-color: rgb(249, 248, 248);
+    font: 10pt;
+    font-style: "Lucida Bright", Helvetica, Arial;
+}
+
+footer {
+    text-align: center;
+    height: fit-content;
+
+}
+
+#footcolor  {
+    background-color: rgb(243, 222, 138); */
+/* START RESPONSIVE/*
+
+ /* extra large screens */
+
+
+       
+/* DESKTOP */
+/* @media all and (max-width: 2560px)   {
+         
+    
+   
+/*TABLET
+@media all and (max-width: 920px) and (min-width: 1024px) 
+
+/* PHONE RESPONSE 
+@media all and (max-width: 420px) 
+          
+        {
+
+         img.soap {
+                 width: 100%;
+                 justify-items: center;
+          }
+          
+    

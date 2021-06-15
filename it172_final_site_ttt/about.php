@@ -1,20 +1,14 @@
 <?php include 'includes/header_172.php'?>
 
-<h2>About</h2>
-<div class="container">
-    <section>
+<h3>About</h3>
     
-      section
-  
-    </section>
+   
+      <img class="about" src="imgs/maew2.jpg" alt="Soap Available" name="Soaps Available">
+
+    <main class="about"> 
     
-    <main> 
-    
-         main
+      <p>This is all about me and I am pretty interesting. I love Kitties and soap. </p>
 
     </main>
 
-
-    <!-- END container -->
-    </div>
     <?php include 'includes/footer_172.php'?>

@@ -1,158 +1,122 @@
 
 
 body {
-    background-color: rgb(243, 247, 240);
+    border-style: solid;
+    border-width: 25px;
+    border-color: rgb(76, 77, 104);
+    background-color: rgb(249, 248, 248);
+    
 }
 
-
-header  {
-    border: 12px rgb(6, 18, 187);
-}
-
-div.container {
-    border:rgb(116, 255, 9);
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto auto;
-    grid-gap: 10px;
-}
-   
-section     {
-    background-color: rosybrown;
-    display: grid;
-    grid-column: 1 / 5;
-    grid-row: 1 / 3;
-}
-
-
- .state {
-    border:rgb(116, 255, 9) 12px;
-    display: grid;
-    grid-column: 1 / 3;
-    grid-row: 2 / 3;
-    background: rgb(255, 133, 46);
-}
+.wrapper    {
+    background-color: rgb(249, 248, 248);
+    border-top: solid 15px rgb(243, 222, 138);
+    /* border-bottom: solid 15px rgb(243, 222, 138); */
  
-.right   {
-    display: grid;
-    grid-column: 3 / 5;
-    grid-row: 2 / 3;
-    background: seagreen;
+}
+ img.imgwrapper {
+     display: inline-block;
+    
+ }
+
+
+.container {
+    display: flex;
+    padding-right: 10px;
+    background-color: rgb(249, 248, 248);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
 }
 
-main    {
-    background-color: rosybrown;
-    display: grid;
-    grid-column: 1 / 5;
-    grid-row: 3 / 5;
-}
+   
+img.soap    {
+    display: inline;
+    width: auto;
+    height: 50%;
+    align-content: right;
+    padding-left: 5px;
+    margin: 0px 20px;
 
-.who   {
+} 
+
+/* .imgwrapper {
+    display: inline-flex;
+    width: 450px;
+} */
+
+ aside {
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(235, 148, 134);
+    border-width: 10px;
+    border-radius: 10px;
     padding: 20px;
-    display: grid;
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-}
-.what   {
-    padding: 20px;
-    display: grid;
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
+    width: 50%;
+    height: auto;
+    font-style: "Fira Sans", Helvetica, Arial;
+    font-size: 12pt;
+    text-align-last: center;
+    text-justify: distribute;
+ }
+
+h2, h3  {
+    font-style: "Lucida Bright", Helvetica, Arial;
+    background-color: rgb(249, 248, 248);
 }
 
-.how   {
-    padding: 20px;
-    display: grid;
-    grid-column:  3 / 4;
-    grid-row: 3 / 4;
+
+#disclaimer {
+    text-align: center;
+    background-color: rgb(249, 248, 248);
+    font: 10pt;
+    font-style: "Lucida Bright", Helvetica, Arial;
 }
 
-.bar {
-    display: grid;
-    grid-column: 1 / 5;
-    grid-row: 5 / 6;
+#payconfirm {
+    background-color: rgb(249, 248, 248); 
+    text-align: center;
+    border: solid 20px rgb(243, 222, 138);
+  
+
 }
 
+#border {
+    border: solid 20px rgb(249, 248, 248);
+}
 footer {
-    border: rgb(19, 240, 30);
-    display: grid;
-    grid-row: 4 / 5;
-    grid-column: 1  / 5;
-    }
+    text-align: center;
+    height: fit-content;
 
+}
 
-/* START RESPONSIVE FOR IMGS/*
+#footcolor  {
+    background-color: rgb(243, 222, 138);
+}
+/* START RESPONSIVE/*
 
  /* extra large screens */
 
 
        
 /* DESKTOP */
-@media all and (max-width: 2560px)   {
+/* @media all and (max-width: 2560px)   {
          
-         img.partdesktop {
-           width: 50%;
-           justify-items: center;
-          }
-
-         .bardesk {
-                width: 100%;
-                justify-items: center;
-               }
-        
-          .parttablet, .bartablet, .partphone, .barphone  {
-             display: none;
-          }
     
-       /* TABLET RESPONSE*/
    
-/*TABLET*/
-@media all and (max-width: 920px) and (min-width: 1024px) {
-       
-        .parttablet {
-            width: 50%;
-            justify-items: center;
-            }
+/*TABLET
+@media all and (max-width: 920px) and (min-width: 1024px) 
 
-        .bartablet {
-            width: 100%;
-            justify-items: center;
-            }
-       
-       .partdesktop, .bardesk, .partphone, .barphone {
-             display: none;
-          } 
-       
-           TO HIDE BUTTONS AND SHOW HAMBURGER
-          nav {
-           display: none;
-         }
-         
-        }
-
-          /* PHONE RESPONSE */
-            @media all and (max-width: 420px) 
+/* PHONE RESPONSE 
+@media all and (max-width: 420px) 
           
         {
 
-         .partphone {
+         img.soap {
                  width: 100%;
                  justify-items: center;
           }
           
-          .barphone {
-            width: 100%;
-            justify-items: center;
-            }
-       
-       
-          .parttablet, .partdesktop, .bardesk, .tablet {
-               display: none;
-            }  
-           }
-       
-               /* TO HIDE BUTTONS AND SHOW HAMBURGER */
-        nav {
-           display: none;
-         }
-        }
+    

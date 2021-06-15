@@ -1,0 +1,79 @@
+/* CSS for SHOP */
+
+/* .products {
+    display: flexbox;
+    
+} */
+
+img.shop {
+   display: inline-flex;
+   padding: 100px;
+   width: 250px;
+   margin: auto;
+}
+
+.productpage {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    text-justify: auto;
+    background-color: rgb(249, 248, 249);
+}
+
+
+/* ul.shop {
+    background-color:  rgb(249, 248, 248);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px
+  }
+        
+img.one {
+ display: grid;
+ grid-column: 1 / 4;
+ grid-row: 1 / 2;
+}
+
+.imgone {
+    display: grid;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+   }
+ .one {
+     display: grid;
+     grid-column: 1 / 2;
+     grid-row: 2 / 3 ;
+ }
+
+ .two {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3 ;
+}
+
+.three {
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3 ;
+}
+/* img {
+    /* display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+} */
+
+
+/* .products   {
+    /* display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2 
+    display: flex;
+    flex-direction: wrap;
+    margin: auto;
+} */ 

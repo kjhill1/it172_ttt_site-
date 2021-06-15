@@ -12,10 +12,20 @@ ob_start();
 $nav1['index.php'] = "Home";
 $nav1['shop.php'] = "Shop";
 $nav1['about.php'] = "About";;
-$nav1['form2.php'] = "Contact US";
-$nav1['cart.php'] = "Cart";
+$nav1['contact.php'] = "Contact US";
+$nav1['cart.php'] = "<i class="fa fa-shopping-cart"></i>
+<i class="fa fa-shopping-cart" style="font-size:24px"></i>
+<i class="fa fa-shopping-cart" style="font-size:36px"></i>
+<i class="fa fa-shopping-cart" style="font-size:48px;co"lor:red"></i>
+<br>
+
+<p>Used on a button:</p>
+<button style="font-size:24px">Button <i class="fa fa-shopping-cart"></i></button>
+
+<p>Unicode:</p>
+<i style="font-size:24px" class="fa">&#xf07a;</i>";
+$nav1['checkout.php'] = "Checkout";
 $nav1['../172.html'] = "it172 Home Page";
-$nav1['../../spr_21.html'] = "Back to Spring";
 
 // // makeLinks function will create our dynamic nav when called.
 // // Call like this:
@@ -40,6 +50,15 @@ switch(THIS_PAGE){
         $PageID = "Shop";
         break;
 
+    case 'checkout.php':
+            $title = "Twenty Two Toes Soap Co.";
+            $PageID = "Checkout";
+            break;
+
+    case 'cart.php':
+        $title = "Twenty Two Toes Soap Co.";
+        $PageID = "Shopping Cart";
+            break;
     case 'about.php':
         $title = "Twenty Two Toes Soap Co.";
         $PageID = "About";
@@ -48,15 +67,9 @@ switch(THIS_PAGE){
     case 'contact.php':
         $title = "Twenty Two Toes Soap Co.";
         $PageID = "Contact Us";
+        break;
 
-    case 'form2.php':
-        $title = "Twenty Two Toes Soap Co.";
-        $PageID = "Contact Us";
-
-
-    case 'cart.php':
-        $title = "Twenty Two Toes Soap Co.";
-        $PageID = "Shopping Cart";
+   
 
         // case '../spr_21.html':
         //     $title = "Twenty Two Toes Soap Co.";
@@ -90,5 +103,3 @@ foreach($linkArray as $url => $text)
 
 return $myReturn;    
 }
-
-?>

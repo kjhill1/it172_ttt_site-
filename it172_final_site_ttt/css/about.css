@@ -1,0 +1,48 @@
+img.about {
+    width: 250px;
+    justify-items: center;
+    margin-left: 50px;
+
+}
+
+main.about {
+        text-align-last: center;
+        border-style: solid;
+        border-color: rgb(235, 148, 134);
+        border-width: 10px;
+        border-radius: 10px;
+        padding: 20px;
+        width: 50%;
+        height: auto;
+        font-style: "Fira Sans", Helvetica, Arial;
+        font-size: 12pt;
+        float: right;
+    }
+/* START RESPONSIVE/*
+
+ /* extra large screens */
+
+
+       
+/* DESKTOP */
+ @media all and (max-width: 2560px)   { 
+
+ }
+         
+    
+   
+/*TABLET*/
+@media all and (max-width: 920px) and (min-width: 1024px) {
+
+
+}
+
+/* PHONE RESPONSE */
+@media all and (max-width: 420px) 
+          
+        {
+         img.about {
+                 width: auto;
+                 justify-items: center;
+                }
+          }
